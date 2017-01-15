@@ -1,0 +1,28 @@
+{
+  "name": "where-is-steam",
+  "version": "0.1.0",
+  "description": "Retrieve Steam games installation directories",
+  "main": "lib",
+  "scripts": {
+    "test": "eslint lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaerl/where-is-steam.git"
+  },
+  "keywords": [
+    "steam"
+  ],
+  "author": "Francesco Bigiarini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaerl/where-is-steam/issues"
+  },
+  "homepage": "https://github.com/zaerl/where-is-steam#readme",
+  "dependencies": {
+    "winreg": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  }
+}
